@@ -1,0 +1,23 @@
+.home-page{
+    height: 100vh;
+    
+    
+    display: flex;
+    flex-direction: column;
+}
+.home-page__container{
+    padding: 15px;
+    
+    height: max-content;
+    flex-grow: 1;
+    
+    max-width: 500px;
+    
+}
+
+@media (min-width: 500px) { 
+    .home-page__container {
+        width: 700px;
+        margin: 0 auto;
+    }
+}

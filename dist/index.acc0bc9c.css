@@ -1,0 +1,20 @@
+.home-page {
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+
+.home-page__container {
+  flex-grow: 1;
+  max-width: 500px;
+  height: max-content;
+  padding: 15px;
+}
+
+@media (width >= 500px) {
+  .home-page__container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=index.acc0bc9c.css.map */
